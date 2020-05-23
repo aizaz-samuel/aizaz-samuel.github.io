@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: About Me
-tags: [about]
 comments: false
 ---
 

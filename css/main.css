@@ -51,5 +51,6 @@ ul.posts li {
 .container {
     border: 2px solid blue;
     max-width: 67%;
-    min-width: 67%
+    min-width: 67%;
+    float: right;
 }
