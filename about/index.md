@@ -7,18 +7,15 @@ comments: false
 
 I'm a data science enthusiast. My interests include deep learning, machine learning, data analysis and programming in Python.
 
-I previously worked as Senior Researcher at [Strathclyde University, UK](https://www.strath.ac.uk/) and as an Industrial Associate at [Building Research Establishment, UK](https://www.bregroup.com/), and received a PhD in [Mechanical Engineering](https://www.strath.ac.uk/research/energysystemsresearchunit/) from Strathclyde University, UK.
+I previously worked as Senior Researcher at [Strathclyde University](https://www.strath.ac.uk/), UK and as an Industrial Associate at [Building Research Establishment](https://www.bregroup.com/), UK and received a PhD in [Mechanical Engineering](https://www.strath.ac.uk/research/energysystemsresearchunit/) from Strathclyde University, UK.
 
-Software
-============
+##Software
 
 * [ESP-r](http://www.esru.strath.ac.uk/applications/esp-r/): Advanced energy systems performance simulation  (Fortran back-end, C/C++ front-end, SQL/XML/JSON/csv outputs )
 * [HUE](http://www.esru.strath.ac.uk/applications/hue/): Big data powered policy tool for upgrading houses based on models for the entire UK housing stock
 
-Publications
-============
-
-Journal publications  
+##Publications
+###Journal publications  
 1. Allison J, Clarke J, Cockroft J & Samuel A. Determining building performance indicators for appraisal of retrofit deployments. Building Research and Information (submitted). http://www.tandfonline.com
 2. Peacock A, Owens E, Samuel A, Kim J, McGhee R, Corne D, Dissanayaki M, Santonja S, Todoli D, Tuohy P (2017). Orchestration of demands and renewable generation in low energy buildings and districts. Energy Procedia, Volume 78. http://www.sciencedirect.com
 3. Cockroft J, Cowie A, Samuel A and Strachan P (2016). Potential energy savings achievable by zoned control of individual rooms in UK housing compared to standard central heating controls. Energy and Buildings, Volume 126. http://www.sciencedirect.com
@@ -32,7 +29,7 @@ Journal publications
 11. Clarke J, Humphreys M, Nicol F, Rijal H, Samuel A, Tuohy P (2007). Using results from field surveys to predict the effect of open windows on thermal comfort and energy use in buildings. Energy and Buildings, Volume 39, Issue 7. http://www.sciencedirect.com
 12. Samuel A, Strachan P (2006). An Integrated Approach to Indoor Contaminant Modelling. HVAC&R Research. Volume 12, No. 3a. Special Issue: Building Performance Simulation. http://www.ashrae.org
 
-Conference publications  
+###Conference publications  
 13. Cowie, A, Kelly, N, McGhee, R, Samuel, A, Higgins, A, Peat, W (2017). Predicting the effect of changes to the urban environment on future electrical demand using building simulation and archetype models. Proc. Building Simulation 2017, San Francisco, USA.
 14. Allison, J, Clarke, J, Cockroft, J, Markopoulos, A, Samuel, A (2017). Measuring and presenting real time environmental indicators for optimised building performance. Proc. Conf. on Passive Low Energy Architecture, Edinburgh, UK.
 15. Clarke J, Kelly N, Hand J, Samuel A (2015). On the Simultaneous Simulation of Building/Plant Systems. Building Simulation 2015. Int. Conf. of IBPSA, Hyderabad, India.
@@ -62,26 +59,23 @@ Conference publications
 39. Clarke J, Humphreys M, Nicol F, Rijal H, Samuel A, Tuohy P (2007). Comfort Driven Adaptive Window Opening Behaviour and the Influence of Building Design. Proceedings of 10th IBPSA Conference, Beijing, China.
 40. Hand J, Samuel A (2006). Modelling Potentially Complex Flows within Historical Buildings. Proceedings of "Simbuild 2006" Cambridge, USA.
 41. Samuel A, Strachan P (2005). Integration of Contaminant Behaviour Prediction within Whole Building Simulation. Proceedings of 9th IBPSA Conference, Montreal, Canada.
-42. Imbabi S, Peacock A, Samuel A, Strachan P (2003). An Engineering Approach to Modelling of Dynamic Insulation using ESP-r. Proceedings of "Building Sustainability, Value and Profit" Worldwide CIBSE/ASHRAE Conference. Edinburgh, UK.
-Dissertations  
+42. Imbabi S, Peacock A, Samuel A, Strachan P (2003). An Engineering Approach to Modelling of Dynamic Insulation using ESP-r. Proceedings of "Building Sustainability, Value and Profit" Worldwide CIBSE/ASHRAE Conference. Edinburgh, UK.  
+
+###Dissertations  
 43. Samuel A (2002). Simulation Modelling of Dynamic Insulation as a Means for Energy Saving and Human Comfort. MSc Thesis. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
-44. Samuel A (2006). On the Conflation of Contaminant Behaviour Prediction within Whole Building Performance Simulation. PhD Thesis. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
-Other publications  
+44. Samuel A (2006). On the Conflation of Contaminant Behaviour Prediction within Whole Building Performance Simulation. PhD Thesis. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk  
+
+###Other publications  
 45. Samuel A, Ghauri S (2012). Housing Upgrade Evaluator. Software for development of energy policy regarding upgrade of existing housing. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 46. Samuel A (2013). Honeywell Energy Calculator. Software for estimation of energy demand from wet central heating systems. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 47. Samuel A, Ghauri S, Cockroft J (2007). Advanced Domestic Energy Performance Tool. Performance analysis software for domestic heating system controls. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 48. Cockroft J, Samuel A and Tuohy P (2007). Development of a Methodology for the Evaluation of Domestic Heating Controls. ESRU Consultancy Report to the Building Research Establishment. http://www.esru.strath.ac.uk
 
-Links
-=====
+##Links
+* [GitHub](https://github.com/aizaz-samuel)
+* [StackOverflow](https://stackoverflow.com/users/13591395/aizazsamuel)
 
-* [My GitHub](https://github.com/aizaz-samuel)
-* [My Stackoverflow]<a href="https://stackoverflow.com/users/13591395/aizazsamuel">
-<img src="../images/aizazsamuel_BnW.jpg" width="208" height="58" alt="Aizaz Samuel's Stack Overflow profile" title="Stack Overflow profile for AIzaz Samuel">
-
-About This Site
-=========
-
+##About This Site
 This site is powered by [Jekyll](http://jekyllrb.com/). All blog posts are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 All opinions and views are my own and do not represent my employer.
