@@ -43,14 +43,11 @@ ul.posts li {
 }
 
 .leftpane {
-    border: 1px solid black;
-    max-width: 33%;
-    min-width: 33%
+    width: 33%;
+    float: left;
 }
 
-.container {
-    border: 2px solid blue;
-    max-width: 60%;
-    min-width: 60%;
+.rightpane {
+    width: 66%;
     float: right;
 }

@@ -11,6 +11,7 @@ content
 			<title>{{ page.title }}</title>
       <!-- <link rel="icon" href="images/Az/favicon-32x32.png"> -->
       <link rel="shortcut icon" type="image/x-icon" href="images/Az/favicon-32x32.ico">
+      <link rel="shortcut icon" type="image/x-icon" href="../images/Az/favicon-32x32.ico">
 			<link rel="stylesheet" type="text/css" href="../css/main.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
@@ -23,15 +24,16 @@ content
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
-      <div class="leftpane">
-      	<h6>This is the homepage and blog of Aizaz Samuel</h6>
-      </div><!-- leftpane  -->
+      <div class="container">
+        <div class="leftpane">
+      	   <h6>This is the homepage and blog of Aizaz Samuel</h6>
+        </div><!-- leftpane  -->
 
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
+			  <div class="rightpane">
+           {{ content }}
+        </div><!-- rightpane  -->
+      </div><!-- /.container -->
+      <div style="clear: both;"></div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:aizazsamuel@gmail.com">email</a></li>
