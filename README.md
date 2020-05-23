@@ -1,6 +1,6 @@
 ## Aizaz Samuel
 
-> PhD in Engineering; Data Science and Building Science Enthusiast
+> PhD (Mechanical Engineering); Data Science and Building Science Enthusiast
 
 <!---
 
