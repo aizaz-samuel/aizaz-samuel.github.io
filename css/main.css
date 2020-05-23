@@ -44,6 +44,12 @@ ul.posts li {
 
 .leftpane {
     border: 1px solid black;
-    padding-left: 33%
+    max-width: 33%;
+    min-width: 33%
+}
 
+.container {
+    border: 2px solid blue;
+    max-width: 67%;
+    min-width: 67%
 }
