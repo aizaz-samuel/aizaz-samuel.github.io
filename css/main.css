@@ -1,9 +1,9 @@
 body {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -43,11 +43,17 @@ ul.posts li {
 }
 
 .leftpane {
-    width: 33%;
+    width: 25%;
     float: left;
 }
 
 .rightpane {
-    width: 66%;
+    width: 74%;
     float: right;
+}
+.foot {
+  text-align: right;
+}
+.leftpane {
+  margin-top: 5em;
 }

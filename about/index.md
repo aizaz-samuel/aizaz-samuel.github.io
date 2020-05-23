@@ -4,7 +4,7 @@ title: About Me
 comments: false
 ---
 
-I'm a data science enthusiast. My interests include deep learning, machine learning, data analysis and programming in Python.
+I'm a data science enthusiast. My interests include deep learning, machine learnings and programming in Python.
 
 I previously worked as Senior Researcher at [Strathclyde University](https://www.strath.ac.uk/), UK and as an Industrial Associate at [Building Research Establishment](https://www.bregroup.com/), UK and received a PhD in [Mechanical Engineering](https://www.strath.ac.uk/research/energysystemsresearchunit/) from Strathclyde University, UK.
 

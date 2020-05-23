@@ -16,29 +16,26 @@ content
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">Resume</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
       <div class="container">
         <div class="leftpane">
-      	   <h6>This is the homepage and blog of Aizaz Samuel</h6>
+					{% include _leftpane.html %}
         </div><!-- leftpane  -->
 
 			  <div class="rightpane">
+					<nav>
+			    		<ul>
+			        		<li><a href="/">Home</a></li>
+				        	<li><a href="/about">About</a></li>
+			        		<li><a href="/cv">Resume</a></li>
+			        		<li><a href="/blog">Blog</a></li>
+			    		</ul>
+					</nav>
            {{ content }}
         </div><!-- rightpane  -->
       </div><!-- /.container -->
       <div style="clear: both;"></div>
 			<footer>
-	    		<ul>
-	        		<li><a href="mailto:aizazsamuel@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/aizaz-samuel">github.com/aizaz-samuel</a></li>
-				</ul>
+				{% include _footer.html %}
 			</footer>
 		</body>
 	</html>
