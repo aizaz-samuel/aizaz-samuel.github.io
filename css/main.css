@@ -41,3 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.container {
+    border: 1px solid black;
+    padding-left: 33%
+
+}
