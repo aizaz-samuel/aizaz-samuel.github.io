@@ -18,7 +18,7 @@ Software
 Publications
 ============
 
-Journal publications
+Journal publications  
     1. Allison J, Clarke J, Cockroft J & Samuel A. Determining building performance indicators for appraisal of retrofit deployments. Building Research and Information (submitted). http://www.tandfonline.com
 
     2. Peacock A, Owens E, Samuel A, Kim J, McGhee R, Corne D, Dissanayaki M, Santonja S, Todoli D, Tuohy P (2017). Orchestration of demands and renewable generation in low energy buildings and districts. Energy Procedia, Volume 78. http://www.sciencedirect.com
@@ -43,7 +43,7 @@ Journal publications
 
     12. Samuel A, Strachan P (2006). An Integrated Approach to Indoor Contaminant Modelling. HVAC&R Research. Volume 12, No. 3a. Special Issue: Building Performance Simulation. http://www.ashrae.org
 
-Conference publications
+Conference publications  
     13. Cowie, A, Kelly, N, McGhee, R, Samuel, A, Higgins, A, Peat, W (2017). Predicting the effect of changes to the urban environment on future electrical demand using building simulation and archetype models. Proc. Building Simulation 2017, San Francisco, USA.
 
     14. Allison, J, Clarke, J, Cockroft, J, Markopoulos, A, Samuel, A (2017). Measuring and presenting real time environmental indicators for optimised building performance. Proc. Conf. on Passive Low Energy Architecture, Edinburgh, UK.
@@ -104,12 +104,12 @@ Conference publications
 
     42. Imbabi S, Peacock A, Samuel A, Strachan P (2003). An Engineering Approach to Modelling of Dynamic Insulation using ESP-r. Proceedings of "Building Sustainability, Value and Profit" Worldwide CIBSE/ASHRAE Conference. Edinburgh, UK.
 
-Dissertations
+Dissertations  
     43. Samuel A (2002). Simulation Modelling of Dynamic Insulation as a Means for Energy Saving and Human Comfort. MSc Thesis. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 
     44. Samuel A (2006). On the Conflation of Contaminant Behaviour Prediction within Whole Building Performance Simulation. PhD Thesis. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 
-Non-traditional publications
+Non-traditional publications  
     45. Samuel A, Ghauri S (2012). Housing Upgrade Evaluator. Software for development of energy policy regarding upgrade of existing housing. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
 
     46. Samuel A (2013). Honeywell Energy Calculator. Software for estimation of energy demand from wet central heating systems. University of Strathclyde, Glasgow, UK. http://www.esru.strath.ac.uk
@@ -124,8 +124,8 @@ Links
 
 * [My GitHub](https://github.com/aizaz-samuel)
 
-<a href="http://stackoverflow.com/users/712603/david-robinson">
-<img src="http://stackoverflow.com/users/flair/712603.png" width="208" height="58" alt="Aizaz Samuel's Stack Overflow profile" title="Stack Overflow profile for AIzaz Samuel">
+<a href="https://stackoverflow.com/users/13591395/aizazsamuel">
+<img src="images/aizazsamuel_BnW.jpg" width="208" height="58" alt="Aizaz Samuel's Stack Overflow profile" title="Stack Overflow profile for AIzaz Samuel">
 </a>
 
 About This Site
