@@ -4,16 +4,17 @@ title: About Me
 comments: false
 ---
 
-I'm a data science enthusiast. My interests include deep learning, machine learnings and programming in Python.
 
-I previously worked as Senior Researcher at [Strathclyde University](https://www.strath.ac.uk/), UK and as an Industrial Associate at [Building Research Establishment](https://www.bregroup.com/), UK and received a PhD in [Mechanical Engineering](https://www.strath.ac.uk/research/energysystemsresearchunit/) from Strathclyde University, UK.
+#### I'm a data science enthusiast. My interests include deep learning, machine learning and programming in Python.
+#### I previously worked as Senior Researcher at [Strathclyde University](https://www.strath.ac.uk/), UK and as an Industrial Associate at [Building Research Establishment](https://www.bregroup.com/), UK and received a PhD in [Mechanical Engineering](https://www.strath.ac.uk/research/energysystemsresearchunit/) from Strathclyde University, UK.
 
 ## Software
 
-* [ESP-r](http://www.esru.strath.ac.uk/applications/esp-r/): Scalable (HPC to Ra-Pi) advanced energy systems performance simulation platform (Fortran back-end; C/C++ front-end; SQL/XML/JSON/csv outputs)
-* [HUE](http://www.esru.strath.ac.uk/applications/hue/): Big data powered policy tool for upgrading houses based on models for the entire UK housing stock (technologies: bash/SQL on Linux HPC, C++ on VisualStudio)
-* [POET](http://www.esru.strath.ac.uk/applications/poet/): Post occupancy evaluation tool for buildings (developed in Java and NSIS using Eclipse IDE)
-* [EnTrak](http://www.esru.strath.ac.uk/applications/entrak/): ETL middleware (PHP/SQL back-end; HTML5/JavaScript front-end;  C/sh notable mentions)
+* [ESP-r](http://www.esru.strath.ac.uk/applications/esp-r/): Scalable (HPC to Ra-Pi) advanced energy systems performance simulation platform _(Fortran back-end; C/C++ front-end; SQL/XML/JSON/csv outputs)_
+* [HUE](http://www.esru.strath.ac.uk/applications/hue/): Big data powered policy tool for upgrading houses based on models for the entire UK housing stock _(technologies: bash/SQL on Linux HPC, bash on Sun Solaris, VisualStudio - C++)_
+* [POET](http://www.esru.strath.ac.uk/applications/poet/): Post occupancy evaluation tool for buildings _(Eclipse - Java, NSIS, MSExcel)_
+* [EnTrak](http://www.esru.strath.ac.uk/applications/entrak/): ETL middleware _(PHP/SQL back-end; HTML5/JavaScript front-end;  C/sh notable mentions)_
+* [Merit](http://www.esru.strath.ac.uk/Downloads/downloads.htm#Merit): Time series data matching tool outputs statistics describing how good multiple demand and supply profiles match _(Visual Studio project using C++, QT, MySQL)_
 
 ## Publications
 ### Journal publications  
@@ -77,6 +78,6 @@ I previously worked as Senior Researcher at [Strathclyde University](https://www
 * [StackOverflow](https://stackoverflow.com/users/13591395/aizazsamuel)
 
 ## About This Site
-This site is powered by [Jekyll](http://jekyllrb.com/). All blog posts are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+##### This site is powered by [Jekyll](http://jekyllrb.com/). All blog posts are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-All opinions and views are my own and do not represent my employer.
+##### All opinions and views are my own and do not represent my employer.
