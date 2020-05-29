@@ -1,0 +1,89 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="7-hc_data/jquery.js"></script>
+<script src="7-hc_data/highcharts.js"></script>
+<script src="7-hc_data/exporting.js"></script>
+<script src="7-hc_data/export-data.js"></script>
+<script src="7-hc_data/dark-unica.js"></script><link href="7-hc_data/css.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="master.css">
+
+
+<script>
+
+
+// Radialize the colors
+Highcharts.setOptions({
+    colors: Highcharts.map(Highcharts.getOptions().colors, function (color) {
+        return {
+            radialGradient: {
+                cx: 0.5,
+                cy: 0.3,
+                r: 0.7
+            },
+            stops: [
+                [0, color],
+                [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+            ]
+        };
+    })
+});
+
+
+
+
+  /*$(function() {*/
+  $(function() {
+
+      $('#container').highcharts({
+        credits: {
+					enabled: false
+				},
+        chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Estimated energy saving potential'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        },
+                        connectorColor: 'silver'
+                    }
+                }
+            },
+            series: [{
+                name: 'Energy MJ',
+                data: [
+                    { name: 'Fabric refurbishment', y: 61.41 },
+                    { name: 'Draught proofing', y: 11.84 },
+                    { name: 'Heating system upgrade', y: 10.85 },
+                    { name: 'Passive solar features', y: 4.67 },
+                    { name: 'Shading', y: 4.18 },
+                    { name: 'Other', y: 7.05 }
+                ]
+            }]
+        });
+      });
+
+
+            </script>
+
+
+
+
+
+
+            </head><body><div id="container" style="width: var(--dashboard-tile-img-width); height:  var(--dashboard-tile-img-height); overflow: hidden;" data-highcharts-chart="0"><div id="highcharts-2zt5ty1-0" style="position: relative; overflow: hidden; width: 410px; height: 225px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Source Sans Pro&quot;, sans-serif; left: 0px; top: 0px;" dir="ltr" class="highcharts-container "><svg version="1.1" class="highcharts-root" style="font-family:'Source Sans Pro', sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="410" height="225" viewBox="0 0 410 225"><desc>Created with Highcharts 8.1.0</desc><defs><linearGradient x1="0" y1="0" x2="1" y2="1" id="highcharts-2zt5ty1-7"><stop offset="0" stop-color="#2a2a2b" stop-opacity="1"></stop><stop offset="1" stop-color="#3e3e40" stop-opacity="1"></stop></linearGradient><clipPath id="highcharts-2zt5ty1-8-"><rect x="0" y="0" width="390" height="163" fill="none"></rect></clipPath><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-9"><stop offset="0" stop-color="#2b908f" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(0,68,67)" stop-opacity="1"></stop></radialGradient><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-10"><stop offset="0" stop-color="#90ee7e" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(68,162,50)" stop-opacity="1"></stop></radialGradient><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-11"><stop offset="0" stop-color="#f45b5b" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(168,15,15)" stop-opacity="1"></stop></radialGradient><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-12"><stop offset="0" stop-color="#7798BF" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(43,76,115)" stop-opacity="1"></stop></radialGradient><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-13"><stop offset="0" stop-color="#aaeeee" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(94,162,162)" stop-opacity="1"></stop></radialGradient><radialGradient cx="196" cy="64.5" r="56" gradientUnits="userSpaceOnUse" id="highcharts-2zt5ty1-14"><stop offset="0" stop-color="#ff0066" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(179,0,26)" stop-opacity="1"></stop></radialGradient></defs><rect fill="url(#highcharts-2zt5ty1-7)" class="highcharts-background" x="0" y="0" width="410" height="225" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="10" y="47" width="390" height="163"></rect><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="10" y="47" width="390" height="163"></rect><g class="highcharts-series-group" data-z-index="3"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-tracker" transform="translate(10,47) scale(1 1)" style="cursor:pointer;"><path fill="url(#highcharts-2zt5ty1-9)" d="M 195.9918530718522 42.000000829655484 A 40 40 0 1 1 169.7389669183718 112.17214181137344 L 196 82 A 0 0 0 1 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"></path><path fill="url(#highcharts-2zt5ty1-10)" d="M 169.70880791210456 112.145865696599 A 40 40 0 0 1 156.24436548405103 86.41469412692285 L 196 82 A 0 0 0 0 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-1"></path><path fill="url(#highcharts-2zt5ty1-11)" d="M 156.2399706684755 86.37493629168597 A 40 40 0 0 1 162.33275647433248 60.40100202825606 L 196 82 A 0 0 0 0 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-2"></path><path fill="url(#highcharts-2zt5ty1-12)" d="M 162.35437230232475 60.36734558983969 A 40 40 0 0 1 170.03635729653092 51.571571556082674 L 196 82 A 0 0 0 0 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-3"></path><path fill="url(#highcharts-2zt5ty1-13)" d="M 170.0667987017237 51.54562313191942 A 40 40 0 0 1 178.80374851363834 45.885059396175045 L 196 82 A 0 0 0 0 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-4"></path><path fill="url(#highcharts-2zt5ty1-14)" d="M 178.83987204634803 45.867881205023515 A 40 40 0 0 1 195.94444080247715 42.00003858532398 L 196 82 A 0 0 0 0 0 196 82 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" opacity="1" stroke-linejoin="round" class="highcharts-point highcharts-color-5"></path></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-pie-series" transform="translate(10,47) scale(1 1)"></g></g><g class="highcharts-exporting-group" data-z-index="3"><g class="highcharts-button highcharts-contextbutton" stroke-linecap="round" transform="translate(376,10)"><rect fill="#505053" class="highcharts-button-box" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><title>Chart context menu</title><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" class="highcharts-button-symbol" data-z-index="1" stroke="#DDDDDD" stroke-width="3"></path><text x="0" data-z-index="1" style="color:#333333;cursor:pointer;font-weight:normal;fill:#333333;" y="12"></text></g></g><text x="205" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color:#E0E0E3;font-size:18px;fill:#E0E0E3;" y="24"><tspan>Estimated energy saving potential</tspan></text><text x="205" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color:#E0E0E3;fill:#E0E0E3;" y="46"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color:#666666;fill:#666666;" y="222"></text><g data-z-index="6" class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-tracker" transform="translate(10,47) scale(1 1)" opacity="1" style="cursor:pointer;"><path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="silver" stroke-width="1" d="M 266.5507801850024 106.55799700988459 C 261.5507801850024 106.55799700988459 244.69486528028744 100.24308349305713 239.07622697871582 98.1381123207813 L 233.4575886771442 96.03314114850548"></path><path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="silver" stroke-width="1" d="M 151.80816411546914 140 C 156.80816411546914 140 149.92246058036812 106.10104481204638 155.2390997441718 103.32015502604104 L 160.55573890797547 100.53926524003569"></path><path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="silver" stroke-width="1" d="M 121.45864539714516 74 C 126.45864539714516 74 145.38012133030003 70.0992486176353 151.22087656141926 71.47241223867738 L 157.0616317925385 72.84557585971946"></path><path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="silver" stroke-width="1" d="M 138.23637616690831 36 C 143.23637616690831 36 156.85410616931625 47.77137168689295 161.37094007285668 51.72082879994376 L 165.8877739763971 55.67028591299457"></path><path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke="silver" stroke-width="1" d="M 152.97368543940593 23.22926407693408 C 157.97368543940593 23.22926407693408 167.7518806121301 38.34173902857961 171.01127900303817 43.37923067912811 L 174.27067739394624 48.41672232967662" visibility="hidden"></path><path fill="none" class="highcharts-data-label-connector highcharts-color-5" stroke="silver" stroke-width="1" d="M 175.62268433246356 12 C 180.62268433246356 12 184.57685121840154 31.270209226594815 185.8949068470475 37.123646623526184 L 187.21296247569347 42.97708402045755"></path><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(272,97)"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight:bold" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Fabric</tspan><tspan dy="14" x="5" style="font-weight:bold" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">refurbishment</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">:</tspan><tspan dy="14" x="5" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">61.4 %</tspan><tspan style="font-weight:bold" x="5" y="16">Fabric</tspan><tspan dy="14" x="5" style="font-weight:bold">refurbishment</tspan><tspan dx="0">:</tspan><tspan dy="14" x="5">61.4 %</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-1" data-z-index="1" transform="translate(49,130)"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight:bold" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Draught</tspan><tspan dy="14" x="5" style="font-weight:bold" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">proofing</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">: 11.8</tspan><tspan dy="14" x="5" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">%</tspan><tspan style="font-weight:bold" x="5" y="16">Draught</tspan><tspan dy="14" x="5" style="font-weight:bold">proofing</tspan><tspan dx="0">: 11.8</tspan><tspan dy="14" x="5">%</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-2" data-z-index="1" transform="translate(19,64)"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight:bold" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Heating</tspan><tspan dy="14" x="5" style="font-weight:bold" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">system</tspan><tspan dy="14" x="5" style="font-weight:bold" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">upgrade</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">: 10.9</tspan><tspan dy="14" x="5" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">%</tspan><tspan style="font-weight:bold" x="5" y="16">Heating</tspan><tspan dy="14" x="5" style="font-weight:bold">system</tspan><tspan dy="14" x="5" style="font-weight:bold">upgrade</tspan><tspan dx="0">: 10.9</tspan><tspan dy="14" x="5">%</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-3" data-z-index="1" transform="translate(28,26)"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight:bold" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Passive solar</tspan><tspan dy="14" x="5" style="font-weight:bold" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">features</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">: 4.7 %</tspan><tspan style="font-weight:bold" x="5" y="16">Passive solar</tspan><tspan dy="14" x="5" style="font-weight:bold">features</tspan><tspan dx="0">: 4.7 %</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-4" data-z-index="1" transform="translate(45,13)" visibility="hidden"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight: bold;" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Shading</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round" style="">: 4.2 %</tspan><tspan style="font-weight:bold" x="5" y="16">Shading</tspan><tspan dx="0">: 4.2 %</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-5" data-z-index="1" transform="translate(83,2)"><text x="5" data-z-index="1" style="color:#B0B0B3;cursor:pointer;font-size:11px;font-weight:bold;fill:#B0B0B3;" y="16"><tspan style="font-weight: bold;" x="5" y="16" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round">Other</tspan><tspan dx="0" class="highcharts-text-outline" fill="#000000" stroke="#000000" stroke-width="2px" stroke-linejoin="round" style="">: 7.1 %</tspan><tspan style="font-weight:bold" x="5" y="16">Other</tspan><tspan dx="0">: 7.1 %</tspan></text></g></g><g class="highcharts-legend" data-z-index="7"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="8" height="8" visibility="hidden"></rect><g data-z-index="1"><g></g></g></g></svg></div></div>
+</body></html>

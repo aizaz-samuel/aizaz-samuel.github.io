@@ -1,0 +1,91 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="model3_files/css.css">
+  <link type="text/css" rel="stylesheet" href="model3_files/font-awesome.css">
+  <link type="text/css" rel="stylesheet" href="model3_files/master.css">
+
+  <link rel="stylesheet" href="model3_files/w3.css">
+
+  <script src="model3_files/jquery.js"></script>
+  <script src="model3_files/functions.html"></script>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    document.getElementById("clickonce").click;
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+  </head>
+<body>
+  <div class="container">
+    <div class="heading1">
+      Theatre House, Besancon, Quebec    </div>
+    <div class="dashboard-tile-narrow w3-content w3-display-container" id="box_one"> <!--violet-->
+      <img class="mySlides" src="model3_files/3-cam.jpg" style="width:100%; height:100%">
+      <img class="mySlides" src="model3_files/3-plan.jpg" style="display:none; width:100%; height:100%">
+      <img class="mySlides" src="model3_files/3-cam.jpg" style="display:none; width:100%; height:100%">
+      <img class="mySlides" src="model3_files/3-plan.jpg" style="display:none; width:100%; height:100%">
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">❮</button>
+      <button id="clickonce" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">❯</button>
+    </div>
+
+    <div class="dashboard-tile" id="box_two"> <!--indigo-->
+      <table class="superset">
+        </table><table>
+          <tbody><tr><td class="texttop indented50"><h5><u>Description</u>:</h5></td><td class="indented"><h5>18th century theatre with excessive thermal capacity</h5></td></tr>
+          <tr><td class="texttop indented50"><h5><u>Scenario</u>:</h5></td><td class="indented"><h5>Performance of space cooling system built to ASHRAE 206-2013 in extreme weather conditions</h5></td></tr>
+          <tr><td class="texttop indented50"><h5><u>Detail</u>:</h5></td><td class="indented"><h5>LEED and BREEAM assessments</h5></td></tr>
+        </tbody></table>
+      
+    </div>
+    <div class="dashboard-tile" id="box_three"> <!--blue-->
+        <h3>Running since 18-10-2017</h3>
+        <table>
+          <tbody><tr><td class="indented100 bot10"><h3>2</h3></td><td class="indented50 bot10"><h3>Alarm(s)</h3></td></tr>
+          <tr><td class="indented100 bot10"><h3>2</h3></td><td class="indented50 bot10"><h3>Alert(s)</h3></td></tr>
+          <tr><td class="indented100 bot10"><h3>5</h3></td><td class="indented50 bot10"><h3>Message(s)</h3></td></tr>
+        </tbody></table>
+    </div>
+
+    
+    <iframe class="dashboard-tile" id="box_four" src="model3_files/2-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_five" src="model3_files/8-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_six" src="model3_files/11-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_seven" src="model3_files/12-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_eight" src="model3_files/1-hc.html"></iframe>
+    <!-- <iframe class="dashboard-tile" id="box_four"  src="../scratch/1-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_five"  src="../scratch/2-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_six"   src="../scratch/3-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_seven" src="../scratch/4-hc.html"></iframe>
+    <iframe class="dashboard-tile" id="box_eight" src="../scratch/13-hc.html"></iframe> -->
+    <div class="dashboard-tile-table" id="box_nine">
+      <table class="text dashboard-tile">
+          <tbody><tr class="text">
+            <td width="20%"><strong>Date</strong></td>
+            <td width="20%"><strong>Time</strong></td>
+            <td><strong>Information</strong></td>
+          </tr>
+        <tr class="text"><td class="text" width="20%">05-04-2018</td><td class="text" width="20%">12:27:31</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">17-03-2018</td><td class="text" width="20%">21:20:30</td><td class="text">Design environmental temperature exceeded by 25%</td></tr><tr class="text"><td class="text" width="20%">16-02-2018</td><td class="text" width="20%">12:07:37</td><td class="text">Low system efficiency alert!</td></tr><tr class="text"><td class="text" width="20%">19-01-2018</td><td class="text" width="20%">15:32:36</td><td class="text">Design environmental temperature exceeded by 25%</td></tr><tr class="text"><td class="text" width="20%">16-12-2017</td><td class="text" width="20%">12:35:46</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">26-11-2017</td><td class="text" width="20%">12:13:40</td><td class="text">System restarted</td></tr><tr class="text"><td class="text" width="20%">25-11-2017</td><td class="text" width="20%">18:32:42</td><td class="text">System shutdown due to unscheduled maintenance</td></tr><tr class="text"><td class="text" width="20%">29-10-2017</td><td class="text" width="20%">14:06:29</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">18-10-2017</td><td class="text" width="20%">09:39:09</td><td class="text">Assessment started</td></tr><tr class="text"><td class="text" width="20%">05-04-2018</td><td class="text" width="20%">12:27:31</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">17-03-2018</td><td class="text" width="20%">21:20:30</td><td class="text">Design environmental temperature exceeded by 25%</td></tr><tr class="text"><td class="text" width="20%">16-02-2018</td><td class="text" width="20%">12:07:37</td><td class="text">Low system efficiency alert!</td></tr><tr class="text"><td class="text" width="20%">19-01-2018</td><td class="text" width="20%">15:32:36</td><td class="text">Design environmental temperature exceeded by 25%</td></tr><tr class="text"><td class="text" width="20%">16-12-2017</td><td class="text" width="20%">12:35:46</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">26-11-2017</td><td class="text" width="20%">12:13:40</td><td class="text">System restarted</td></tr><tr class="text"><td class="text" width="20%">25-11-2017</td><td class="text" width="20%">18:32:42</td><td class="text">System shutdown due to unscheduled maintenance</td></tr><tr class="text"><td class="text" width="20%">29-10-2017</td><td class="text" width="20%">14:06:29</td><td class="text">Cooling demand 20% above capacity</td></tr><tr class="text"><td class="text" width="20%">18-10-2017</td><td class="text" width="20%">09:39:09</td><td class="text">Assessment started</td></tr>      </tbody></table>
+
+
+    </div>
+  </div>
+
+
+</body></html>
